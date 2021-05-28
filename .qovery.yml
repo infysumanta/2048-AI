@@ -1,0 +1,16 @@
+---
+application:
+  name: "2048-ai"
+  project: "tesy2"
+  organization: "QoveryCommunity"
+  storage:
+  - name: "sss"
+    size: "500"
+    type: "hdd"
+    mount_point: "/mnt/sss"
+routers:
+- name: "main-2048-ai"
+  routes:
+  - application_name: "2048-ai"
+    paths:
+    - "/*"
